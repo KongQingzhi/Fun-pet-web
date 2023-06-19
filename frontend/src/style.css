@@ -1,6 +1,7 @@
 @tailwind base;
 
 @layer base {
+
     [type='text']:focus,
     [type='email']:focus,
     [type='url']:focus,

@@ -6,7 +6,7 @@ module.exports = {
     "./src/**/*.{vue,js,ts,jsx,tsx}",
     "./node_modules/flowbite/**/*.js",
   ],
-  corePlugins: { aspectRatio: false },
+  corePlugins: { aspectRatio: false, preflight: false },
   darkMode: "class",
   plugins: [],
   theme: {
