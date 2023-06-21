@@ -1,7 +1,7 @@
 <template>
   <div class="text-center p-4 space-y-4 border">
     <div class="flex justify-center items-center">
-      <ExclamationCircleIcon class="h-8 w-8 text-orange-700" />
+      <ExclamationCircleIcon class="h-8 w-8 text-orange-600" />
       <p class="ml-1">发生错误啦!</p>
     </div>
     <div>
@@ -9,7 +9,9 @@
         {{ props.errMsg }}
       </p>
     </div>
-    <NButton @click="emits('handleClick')">重 试</NButton>
+    <NButton type="info" ghost @click="emits('handleClick')">
+      <span class="text-sm">重 试</span>
+    </NButton>
   </div>
 </template>
 
