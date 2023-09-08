@@ -7,6 +7,7 @@ export const userInfoStore = defineStore("userInfo", () => {
   const userInfoState = ref(null);
   const clearUserInfo = () => (userInfoState.value = null);
   return {
+    userInfoState,
     clearUserInfo,
   };
 });

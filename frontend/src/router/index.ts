@@ -1,6 +1,5 @@
 import { createRouter, createWebHashHistory } from "vue-router";
-
-const routes = [{ path: "/", name: "root", redirect: "" }];
+import { routes } from "./routes";
 
 const router = createRouter({
   routes,

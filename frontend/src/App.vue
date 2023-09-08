@@ -1,5 +1,7 @@
 <template>
-  <div class="text-red-600 text-5xl">111111</div>
+  <div class="px-4 md:px-40 lg:px-60"><Navigation /></div>
 </template>
 
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+import Navigation from "./components/Navigation.vue";
+</script>
